@@ -1,0 +1,17 @@
+[project]
+name = "VRC-OSC"
+version = "0.1.0"
+description = "Make OSC easy for VRChat devs."
+authors = [
+  { name="sylvasu", email="no@no.no" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text="MIT" }
+
+[project.urls]
+Homepage = "https://github.com/Sylvasu/VRC-OSC"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
