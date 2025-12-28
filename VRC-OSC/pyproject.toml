@@ -15,3 +15,7 @@ Homepage = "https://github.com/Sylvasu/VRC-OSC"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+dependencies = [
+  "pythonosc",
+]
